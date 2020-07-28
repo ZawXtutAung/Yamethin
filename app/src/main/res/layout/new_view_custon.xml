@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/newonelinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layoutbgcolor"
+   >
+    <include
+        android:id="@+id/my_awesome_toolbar"
+        layout="@layout/singletoolbar"
+       />
+    <ScrollView
+        android:background="@color/layoutbgcolor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/movieImage"
+            android:background="@drawable/newp"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:id="@+id/linearup"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieImage"
+            >
+
+            <!--ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10sp"
+                android:id="@+id/logo"
+                android:src="@drawable/ymtmain"
+                /-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="27.1.2017"
+                    android:textSize="15dp"
+                    android:id="@+id/date"
+                    android:textStyle="bold"
+                    />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/relayout"
+            android:layout_below="@+id/linearup"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:padding="3dp"
+                android:lineSpacingExtra="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="This is new body."
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/body"
+                android:layout_below="@+id/title"
+                android:text="My name is nay thu saung"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+
+<!--LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/newonelinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layoutbgcolor"
+   >
+    <include
+        android:id="@+id/my_awesome_toolbar"
+        layout="@layout/singletoolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/date"
+   android:layout_marginTop="20dp"
+    android:layout_marginRight="30dp"
+    android:layout_alignParentRight="true"
+    android:text="2.2.2017"
+    android:textSize="20sp"
+    />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_below="@+id/date"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="hello world"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/body"
+            android:layout_below="@+id/title"
+            android:text="My name is nay thu saung"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout-->

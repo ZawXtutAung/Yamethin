@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+<!--include
+    android:id="@+id/abto"
+    layout="@layout/map_toobar"
+    /-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#c6f1f1"
+        >
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yamethin Directory Application"
+        android:textColor="@color/blacka"
+        android:textSize="20dp"
+        android:singleLine="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/blacka"
+        android:gravity="center"
+        android:text="Version 1.0"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/com_facebook_button_background"
+        android:id="@+id/fbpage"
+        android:text="Facebook Page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout
+            android:background="#c6f1f1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/blacka"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/txone"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtwo"
+                android:textSize="15dp"
+                android:textColor="@color/blacka"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+        </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="8dp"
+    android:background="#c6f1f1"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#199"
+        android:textSize="17dp"
+        android:text="Developer Zaw Xtut Aung"
+        />
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/com_facebook_profile_picture_blank_square"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_margin="5dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <Button
+            android:background="@drawable/com_facebook_button_background"
+            android:id="@+id/zxaph"
+            android:text="Facebook"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageButton
+            android:background="@drawable/map_buttonbg"
+            android:id="@+id/phzaw"
+           android:layout_weight="1"
+            android:src="@android:drawable/stat_sys_phone_call"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"/>
+            <ImageButton
+                android:id="@+id/zxasms"
+                android:src="@android:drawable/sym_action_chat"
+                android:layout_margin="5dp"
+                android:background="@drawable/map_buttonbg"
+android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/zxally"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        >
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/urlLayoutx"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/zawedt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="message" />
+        </android.support.design.widget.TextInputLayout>
+        <ImageButton
+            android:id="@+id/sendzawsms"
+            android:background="@drawable/map_buttonbg"
+            android:src="@android:drawable/ic_menu_send"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+ <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:background="#c6f1f1"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#199"
+            android:text="Developer Ko Thu"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/com_facebook_profile_picture_blank_square"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="5dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/ktph"
+                    android:text="Facebook"
+                    android:background="@drawable/com_facebook_button_background"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:weightSum="2"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:background="@drawable/map_buttonbg"
+                        android:id="@+id/phk"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/stat_sys_phone_call"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"/>
+                    <ImageButton
+                        android:id="@+id/ktsms"
+                        android:src="@android:drawable/sym_action_chat"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/map_buttonbg"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ktlly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/urlLayout"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/koedt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="message" />
+            </android.support.design.widget.TextInputLayout>
+            <ImageButton
+                android:id="@+id/sendkosms"
+                android:background="@drawable/map_buttonbg"
+                android:src="@android:drawable/ic_menu_send"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+  <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            android:background="#c6f1f1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#199"
+                android:text="Photo grapher Paing Soe Htun"
+                />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/com_facebook_profile_picture_blank_square"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="5dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="#112"
+                        android:text="​​ေရႊပန္​းခ်ီ "
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#112"
+                        android:text="ီ ဓာတ္​ပံုနွင္​့ ဗြီဒီယိုရိုက္​ကူ​ေရး"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:text="Phone"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/pstph"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

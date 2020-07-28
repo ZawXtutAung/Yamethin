@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+  <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+  <meta http-equiv="Content-Language" content="en">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+  <meta name="theme-color" content="#f5f5f5">
+  <meta name="selected-link" value="repo_source">
+
+      <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="2BE055E2:7728:A3BCFCE:585A72F1" name="octolytics-dimension-request_id" />
+<meta content="mobile" name="octolytics-dimension-device" />
+<meta content="8405706" name="octolytics-dimension-user_id" /><meta content="SanKoKo" name="octolytics-dimension-user_login" /><meta content="58919283" name="octolytics-dimension-repository_id" /><meta content="SanKoKo/sanztou" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="58919283" name="octolytics-dimension-repository_network_root_id" /><meta content="SanKoKo/sanztou" name="octolytics-dimension-repository_network_root_nwo" />
+
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta class="js-ga-set" name="dimension3" content="mobile">
+
+
+
+
+  <title>sanztou/mm3.ttf at master · SanKoKo/sanztou · GitHub</title>
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/mobile-5821f71ad99f9c8140f0ae6b6b6c8882b26a3674f123d386b24bedc05dd19be8.css" integrity="sha256-WCH3GtmfnIFA8K5ra2yIgrJqNnTxI9OGskvtwF3Rm+g=" media="all" rel="stylesheet" />
+</head>
+<body class="">
+  <header class="nav-bar">
+    <div class="nav-bar-inner ">
+      <button type="button" class="header-button header-nav-button touchable js-show-global-nav" data-ga-click="Mobile, tap, location:header; text:Hamburger">
+        <svg aria-hidden="true" class="octicon octicon-three-bars" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+      </button>
+
+      <div class="nav-bar-title-text">
+            <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <strong><a href="/SanKoKo">SanKoKo</a></strong>
+  /
+  <strong><a href="/SanKoKo/sanztou">sanztou</a></strong>
+
+      </div>
+
+      
+
+    </div>
+
+
+    <nav class="nav-bar-tabs ">
+      <ul>
+          <li>
+            <a href="/explore" data-ga-click="Mobile, tap, location:header; text:Explore">
+              <svg aria-hidden="true" class="octicon octicon-telescope" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 9l3 6h-1l-2-4v5H7v-6l-2 5H4l2-5 2-1zM7 0H6v1h1V0zM5 3H4v1h1V3zM2 1H1v1h1V1zM.63 9a.52.52 0 0 0-.16.67l.55.92c.13.23.41.31.64.2l1.39-.66-1.16-2-1.27.86.01.01zm7.89-5.39l-5.8 3.95L3.95 9.7l6.33-3.03-1.77-3.06h.01zm4.22 1.28l-1.47-2.52a.51.51 0 0 0-.72-.17l-1.2.83 1.84 3.2 1.33-.64c.27-.13.36-.44.22-.7z"/></svg>
+              Explore
+            </a>
+          </li>
+        <li>
+            <a href="/login?return_to=%2FSanKoKo%2Fsanztou%2Fblob%2Fmaster%2Fmm3.ttf" data-ga-click="Mobile, tap, location:header; text:Sign in">
+              <svg aria-hidden="true" class="octicon octicon-sign-in" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 6.75V12h4V8h1v4c0 .55-.45 1-1 1H7v3l-5.45-2.72c-.33-.17-.55-.52-.55-.91V1c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v3h-1V1H3l4 2v2.25L10 3v2h4v2h-4v2L7 6.75z"/></svg>
+              Sign in
+            </a>
+        </li>
+        
+      </ul>
+    </nav>
+  </header>
+
+
+  <div id="js-flash-container">
+</div>
+
+
+    
+
+
+
+
+<div class="reponav-wrapper">
+  <nav class="reponav js-reponav"
+       itemscope
+       itemtype="http://schema.org/BreadcrumbList">
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/SanKoKo/sanztou" class="js-selected-navigation-item selected reponav-item" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /SanKoKo/sanztou" itemprop="url">
+        <span itemprop="name">Code</span>
+        <meta itemprop="position" content="1">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a href="/SanKoKo/sanztou/issues" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /SanKoKo/sanztou/issues" itemprop="url">
+          <span itemprop="name">Issues</span>
+          <span class="counter">0</span>
+          <meta itemprop="position" content="2">
+</a>      </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/SanKoKo/sanztou/pulls" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls /SanKoKo/sanztou/pulls" itemprop="url">
+        <span itemprop="name">Pull requests</span>
+        <span class="counter">0</span>
+        <meta itemprop="position" content="3">
+</a>    </span>
+
+    <a href="/SanKoKo/sanztou/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /SanKoKo/sanztou/pulse">
+      Pulse
+</a>
+  </nav>
+</div>
+
+
+
+
+<div class="breadcrumb blob-breadcrumb">
+  <label for="blob-history-checkbox" class="blob-history-label">
+    <svg aria-hidden="true" class="octicon octicon-history" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+  </label>
+  <span class="filetype-icon"><svg aria-hidden="true" class="octicon octicon-file-binary" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 12h1v1H2v-1h1v-2H2V9h2v3zm8-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5zM8 4H6v1h1v2H6v1h3V7H8V4zM2 4h3v4H2V4zm1 3h1V5H3v2zm3 2h3v4H6V9zm1 3h1v-2H7v2z"/></svg></span>
+  <strong class="final-path">mm3.ttf</strong>
+</div>
+
+<input id="blob-history-checkbox"
+       class="js-blob-history-checkbox blob-history-checkbox"
+       type="checkbox"
+       data-url="/SanKoKo/sanztou/latest_commit/master/mm3.ttf">
+
+<div class="blob-history">
+  <a href="/SanKoKo/sanztou/commits/master/mm3.ttf" class="js-blob-history-link">
+    Loading latest commit…
+</a></div>
+
+  <div class="blob-file-content js-file-line-container">
+    <p class="blob-file-content-blankslate">This file is binary and cannot be displayed inline. <a href="/SanKoKo/sanztou/blob/master/mm3.ttf?raw=true">Open binary file</a></p>
+  </div>
+
+
+  <footer class="clearfix">
+    <div class="container">
+      <a href="#"><svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+
+      <ul class="clearfix">
+        <li>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/site/mobile_preference" class="js-mobile-preference-form" data-form-nonce="a4cb6367fbc9b6fa627a84a87ed54c96fe613253" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="sF1Z6H21Y64+Ax3uCQMn2mrp386YU05ztoFztVWvDMLBGoMgdEUq9wB3dYndjrCY6sRz2+YDF51D92bn8XGEcw==" /></div>
+            <input type="hidden" name="mobile" value="false">
+            <input type="hidden" name="anchor" class="js-mobile-preference-anchor-field">
+
+            <button type="submit" class="switch-to-desktop" data-ga-click="Mobile, switch to desktop, switch button">
+              Desktop version
+            </button>
+</form>        </li>
+
+      </ul>
+    </div>
+  </footer>
+  
+  <script async="async" crossorigin="anonymous" integrity="sha256-f6aqMkXNkQ18uKme91T12aUKIapXM8Pkjrbzcv39AN8=" src="https://assets-cdn.github.com/assets/mobile-7fa6aa3245cd910d7cb8a99ef754f5d9a50a21aa5733c3e48eb6f372fdfd00df.js"></script>
+</body>
+</html>

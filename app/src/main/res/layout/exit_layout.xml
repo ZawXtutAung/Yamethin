@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/exit_bg"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Yamethin Directory Appliication "
+        />
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="မွအျပင္​ထြက္​ရန္​ အတည္​ျပဳ​ေပးပါ"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<Button
+    android:background="@drawable/button"
+    android:id="@+id/no"
+    android:text="မထြက္ပါ"
+    android:layout_margin="10dp"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content" />
+    <Button
+        android:background="@drawable/button"
+        android:id="@+id/yes"
+        android:text="ထြက္မည္"
+        android:layout_margin="10dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <!--com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_size="mini"
+        android:id="@+id/fbtn1"
+        app:fab_colorNormal="#fff"
+        app:fab_colorPressed="#ff1"
+        android:src="@drawable/bc"
+        android:layout_marginLeft="15dp"
+        /-->
+
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_size="mini"
+       android:layout_marginTop="10dp"
+        android:id="@+id/fbtn2"
+        app:fab_colorNormal="#fff"
+        app:fab_colorPressed="#196"
+        android:src="@drawable/ll"
+        android:layout_marginLeft="15dp"
+        />
+
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_size="mini"
+        android:layout_marginLeft="15dp"
+        app:fab_colorNormal="#fff"
+android:layout_marginTop="10dp"
+        app:fab_colorPressed="#813"
+        android:id="@+id/fbtn3"
+        android:src="@drawable/mapte"
+       />
+
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nosettin"
+        app:fab_colorNormal="#fff"
+        android:id="@+id/fbtnmain"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+</LinearLayout>

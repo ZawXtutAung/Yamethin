@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/blue"
+    android:id="@+id/cv"
+    android:layout_margin="2dp"
+    android:layout_height="210dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:id="@+id/linearup"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/logo"
+            android:src="@drawable/ymtmain"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="27.1.2017"
+                android:textSize="20dp"
+                android:id="@+id/datenew"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titlenew"
+            android:padding="5dp"
+            android:lineSpacingExtra="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/linearup"
+            android:text="This is new body."
+            android:textSize="20sp"
+            android:textColor="@color/yellow"
+            />
+    <!--ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlenew"
+        android:layout_marginTop="40dp"
+        android:id="@+id/movieImage"
+        android:src="@drawable/zawzaw"
+        /-->
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

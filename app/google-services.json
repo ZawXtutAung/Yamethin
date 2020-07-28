@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "174169605166",
+    "firebase_url": "https://yamethin-6f538.firebaseio.com",
+    "project_id": "yamethin-6f538",
+    "storage_bucket": "yamethin-6f538.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174169605166:android:63fe23741d842c0d",
+        "android_client_info": {
+          "package_name": "com.zawxtutaung.yamethin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174169605166-p3a121j0p03btgb8pbiij9oabu4031mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zawxtutaung.yamethin",
+            "certificate_hash": "C59A50C64F2CB38512891DB434415AFC7593E6DB"
+          }
+        },
+        {
+          "client_id": "174169605166-10hiv24fgcc2td12na54b9lc4kaf8ohm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFviO_NPGQoMD9dBM6KbRtCm6_ECjKmK8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174169605166-10hiv24fgcc2td12na54b9lc4kaf8ohm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

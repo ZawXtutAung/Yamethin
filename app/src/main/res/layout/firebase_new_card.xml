@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/blue"
+    android:id="@+id/cv"
+    android:layout_margin="5dp"
+    android:layout_height="160dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/movieImage"
+            android:src="@drawable/newimg"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="27.1.2017"
+            android:textSize="15dp"
+            android:id="@+id/datenew"
+            android:textStyle="bold"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titlenew"
+                android:padding="3dp"
+                android:lineSpacingExtra="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/datenew"
+                android:text="This is new body."
+                android:textSize="18sp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

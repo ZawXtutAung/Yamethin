@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_awesome_toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/bluelow"
+    android:padding="5dp">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   >
+    <TextView
+        android:layout_centerVertical="true"
+        android:text="Yamethin Guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:id="@+id/titletool" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mapbutton"
+        android:background="@color/bluelow"
+        android:layout_toLeftOf="@+id/customsearch"
+        android:layout_marginRight="30dp"
+        android:src="@android:drawable/ic_menu_mapmode"
+        />
+       <ImageButton
+        android:id="@+id/customsearch"
+        android:background="@color/bluelow"
+        android:src="@android:drawable/ic_menu_search"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>
+</android.support.v7.widget.Toolbar>
